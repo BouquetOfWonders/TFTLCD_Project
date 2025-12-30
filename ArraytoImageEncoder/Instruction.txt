@@ -12,7 +12,7 @@ c) Seperate bytes for pixels is ON
 
 4 Run the code
 
-5 The converter file will be created in the same folder as the script under the name "ImageFile.txt"
+5 The converter file will be created in the same folder as the script under the name "imagefile.Image"
 It can now be written into the screen using BoW's image driver
 
 WARNING
@@ -26,3 +26,4 @@ height
 
 
 If done correctly the image should be displayed properly
+
