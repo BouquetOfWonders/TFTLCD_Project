@@ -1,5 +1,6 @@
 1 - Convert image to array
 this can be done at https://notisrac.github.io/FileToCArray/
+Shoutout to Notisrac
 Make sure that
 a) Code format is set to "Hex 0x00"
 b) Pallete is set to "24bit RGB"
@@ -22,5 +23,6 @@ To bypass this split the image by its middle horizontal axis, set the "HEIGHT" t
 delete the first two lines of the bottom part of the image, paste the bottom image data onto the end of
 the top half of the image data and manually change the second line of the image data variable to desired
 height
+
 
 If done correctly the image should be displayed properly
