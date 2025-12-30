@@ -5,10 +5,8 @@
 
 using namespace std;
 int main() {
-    // Write C++ code here
     
     
-// array size is 125820
   int Image[]  = {};
     
     int ImageSize = HEIGHT * WIDTH * 3;
@@ -19,4 +17,5 @@ int main() {
         ImageFileThingy << Image[i] << " " << Image[i + 1] << " " << Image[i + 2] << endl;     
     }
     ImageFileThingy.close();
+
 }
