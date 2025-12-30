@@ -1,0 +1,26 @@
+1 - Convert image to array
+this can be done at https://notisrac.github.io/FileToCArray/
+Make sure that
+a) Code format is set to "Hex 0x00"
+b) Pallete is set to "24bit RGB"
+c) Seperate bytes for pixels is ON
+
+2 Copy the generated array to the "Image" array in the script
+
+3 set "WIDTH" and "HEIGHT" to thier respective values
+
+4 Run the code
+
+5 The converter file will be created in the same folder as the script under the name "ImageFile.txt"
+It can now be written into the screen using BoW's image driver
+
+WARNING
+If working with bigger files (only noticable if working on image sizes close to the entire screen)
+the code doesnt generate a file, for whatever reason
+
+To bypass this split the image by its middle horizontal axis, set the "HEIGHT" to half its real value,
+delete the first two lines of the bottom part of the image, paste the bottom image data onto the end of
+the top half of the image data and manually change the second line of the image data variable to desired
+height
+
+If done correctly the image should be displayed properly
